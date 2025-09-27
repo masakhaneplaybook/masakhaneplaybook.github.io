@@ -1,0 +1,44 @@
+<svg width="400" height="300" viewBox="0 0 400 300" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="continentGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#2e8555;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#25c2a0;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#1b6ec2;stop-opacity:1" />
+    </linearGradient>
+    <radialGradient id="languagePoint" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" style="stop-color:#ffffff;stop-opacity:1" />
+      <stop offset="70%" style="stop-color:#2e8555;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#1b6ec2;stop-opacity:1" />
+    </radialGradient>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="400" height="300" fill="#f8f9fa"/>
+  
+  <!-- Simplified Africa continent shape -->
+  <path d="M180 50 C220 45, 250 60, 270 80 C290 100, 295 130, 285 160 C275 190, 260 210, 240 230 C220 250, 190 260, 160 255 C130 250, 110 235, 100 210 C90 185, 95 155, 105 130 C115 105, 140 80, 160 65 C170 57, 175 52, 180 50 Z" fill="url(#continentGradient)" stroke="#1b6ec2" stroke-width="2"/>
+  
+  <!-- Language diversity points -->
+  <circle cx="150" cy="90" r="4" fill="url(#languagePoint)"/>
+  <circle cx="180" cy="85" r="3" fill="url(#languagePoint)"/>
+  <circle cx="210" cy="95" r="4" fill="url(#languagePoint)"/>
+  <circle cx="240" cy="110" r="3" fill="url(#languagePoint)"/>
+  <circle cx="260" cy="130" r="4" fill="url(#languagePoint)"/>
+  <circle cx="250" cy="160" r="3" fill="url(#languagePoint)"/>
+  <circle cx="220" cy="180" r="4" fill="url(#languagePoint)"/>
+  <circle cx="190" cy="190" r="3" fill="url(#languagePoint)"/>
+  <circle cx="160" cy="170" r="4" fill="url(#languagePoint)"/>
+  <circle cx="130" cy="150" r="3" fill="url(#languagePoint)"/>
+  <circle cx="120" cy="120" r="4" fill="url(#languagePoint)"/>
+  <circle cx="170" cy="130" r="3" fill="url(#languagePoint)"/>
+  <circle cx="200" cy="140" r="4" fill="url(#languagePoint)"/>
+  <circle cx="230" cy="145" r="3" fill="url(#languagePoint)"/>
+  
+  <!-- Language labels -->
+  <text x="50" y="40" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#1b6ec2">African Language Diversity</text>
+  <text x="50" y="280" font-family="Arial, sans-serif" font-size="10" fill="#666">2000+ languages • 100+ language families</text>
+  
+  <!-- Legend -->
+  <circle cx="320" cy="50" r="3" fill="url(#languagePoint)"/>
+  <text x="330" y="55" font-family="Arial, sans-serif" font-size="9" fill="#666">Language Communities</text>
+</svg>
